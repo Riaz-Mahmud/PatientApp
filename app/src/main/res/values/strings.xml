@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PatientApp</string>
+
+    <string name="pref_file">com.example.patientapp3.preference_file</string>
+    <string name="pref_login_status">com.example.patientapp3.preference_login_status</string>
+    <string name="pref_user_username">com.example.patientapp3.preference_user_username</string>
+    <string name="pref_user_name">com.example.patientapp3.preference_user_name</string>
+    <string name="pref_user_number">com.example.patientapp3.preference_number</string>
+</resources>

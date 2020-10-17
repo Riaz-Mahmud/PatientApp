@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="0dp"
+    android:id="@+id/parentLayoutForDoctorList"
+    tools:ignore="MissingDefaultResource">
+
+
+    <TextView
+        android:id="@+id/DoctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhaka"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:layout_marginStart="0dp"
+        />
+
+    <TextView
+        android:id="@+id/hospitalLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhaka"
+        android:textSize="17sp"
+        android:textColor="@color/Black"
+        android:layout_marginStart="0dp"
+        />
+
+    <TextView
+        android:id="@+id/expert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhaka"
+        android:textSize="16sp"
+        android:textColor="@color/Black"
+        android:layout_marginStart="0dp"
+        />
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhaka"
+        android:textSize="16sp"
+        android:textColor="@color/Black"
+        android:layout_marginStart="0dp"
+        />
+
+    <TextView
+        android:id="@+id/shift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhaka"
+        android:textSize="16sp"
+        android:textColor="@color/Black"
+        android:layout_marginStart="0dp"
+        />
+
+    <Button
+        android:id="@+id/callDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALL"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/White"
+        />
+
+    <View
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black"
+        android:layout_marginBottom="5dp"/>
+
+
+</LinearLayout>
